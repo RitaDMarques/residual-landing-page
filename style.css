@@ -1,0 +1,147 @@
+body {
+  background-image: url("images/backgroundfinal.jpg");
+  background-size: cover;
+  color: white;
+  margin-left: 60px;
+  columns: 1;
+  width: 630px;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  text-shadow: 5px 5px darkslategrey;
+  background-color: rgb(176, 196, 222);
+  box-sizing: content-box;
+  width: 600px;
+  height: fit-content;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 30px;
+  text-shadow: 3px 3px darkslategrey;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px darkslategrey;
+  background-color: rgb(176, 196, 222);
+  box-sizing: content-box;
+  width: 600px;
+  margin-top: 0px;
+  height: fit-content;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px darkslategrey;
+}
+
+span {
+  color: coral;
+  text-shadow: 2px 2px darkslategrey;
+}
+
+.mission {
+  margin-bottom: 40px;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: coral;
+  background-color: darkslategrey;
+  padding: none;
+  padding: 10px 25px;
+  margin-left: 190px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.about-me {
+  font-weight: normal;
+  text-shadow: none;
+  margin-bottom: 40px;
+}
+
+ul li a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin-left: 125px;
+}
+
+li {
+  display: inline;
+  margin-right: 30px;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(176, 196, 222);
+}
+
+
+@media (max-width: 748px) {
+  body {
+    /* background: darkslategrey; */
+    background-image: url("images/backgroundmobile2.jpg");
+    background-size: 748px 1330px;
+    background-repeat: no-repeat;
+    background-color: rgb(176, 196, 222);
+    text-align: justify;
+    margin-left: 0px;
+    text-shadow: none;
+    column-width: 640px;
+  }
+ 
+  h1 {
+    font-size: 90px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+  }
+  h4 {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  
+  h2 {
+    margin-left: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  .button {
+    margin-left: 35%;
+    background-color: rgb(176, 196, 222);
+  }
+
+  ul {
+    margin-left: 30%;
+  }
+}
