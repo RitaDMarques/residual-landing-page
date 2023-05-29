@@ -11,12 +11,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 25px 4px;
+  margin: 10px;
 }
 
 
 .column {
   flex: 25%;
   padding: 0 4px;
+  margin: 4px;
+}
+
+.column img {
+  margin-top: 12px;
 }
 
 h1 {
@@ -24,12 +30,8 @@ h1 {
   font-size: 100px;
   font-weight: lighter;
   text-shadow: 5px 5px darkslategrey;
-  background-color: rgb(176, 196, 222);
-  box-sizing: content-box;
-  height: fit-content;
   margin-top: 40px;
   padding: 20px;
-  text-align: center;
   margin-bottom: 0px;
 }
 
@@ -41,16 +43,21 @@ h2 {
   margin-bottom: 20px;
 }
 
+.container {
+  background-color: rgb(176, 196, 222);
+  box-sizing: content-box;
+  height: fit-content;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
 h4 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 20px;
   letter-spacing: 2px;
   text-shadow: 2px 2px darkslategrey;
-  background-color: rgb(176, 196, 222);
-  box-sizing: content-box;
   margin-top: 0px;
-  height: fit-content;
-  text-align: center;
   padding: 20px;
 }
 
@@ -60,6 +67,7 @@ p {
   font-weight: bold;
   letter-spacing: 3px;
   text-shadow: 2px 2px darkslategrey;
+  text-align: justify;
 }
 
 span {
@@ -71,17 +79,13 @@ span {
   margin-bottom: 40px;
 }
 
-.button {
+.container .button {
+  background-image: url("images/Picture3.jpg");
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
   color: coral;
-  background-color: darkslategrey;
-  padding: none;
-  padding: 10px 25px;
-  margin-left: 190px;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .button:hover {
@@ -100,17 +104,19 @@ ul li a {
 
 ul {
   list-style: none;
-  margin-left: 125px;
+  /* margin-left: 125px; */
 }
 
 li {
   display: inline;
-  margin-right: 30px;
+  text-align: center;
   font-size: 20px;
   padding: 10px;
+  margin: 20px;
   text-decoration: none;
   color: white;
   background-color: rgb(176, 196, 222);
+  margin-top: 50px;
 }
 
 
