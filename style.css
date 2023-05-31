@@ -70,33 +70,33 @@ p {
   text-align: justify;
 }
 
-span {
-  color: coral;
-  text-shadow: 2px 2px darkslategrey;
+
+.image-container {
+  position: relative;
+  display: inline-block;
 }
 
-.mission {
-  margin-bottom: 40px;
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.container .button {
-  background-image: url("images/Picture3.jpg");
-  text-decoration: none;
+.image-container .overlay-text {
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: coral;
-  text-align: center;
+  letter-spacing: 3px;
+  background:darkslategrey;
+  text-align: justify;
+  padding: 10%;
+  display: none;
 }
 
 .button:hover {
   opacity: 0.7;
 }
 
-.about-me {
-  font-weight: normal;
-  text-shadow: none;
-  margin-bottom: 40px;
-}
 
 ul li a {
   color: white;
@@ -104,7 +104,7 @@ ul li a {
 
 ul {
   list-style: none;
-  /* margin-left: 125px; */
+  margin-top: 100px;
 }
 
 li {
@@ -116,8 +116,10 @@ li {
   text-decoration: none;
   color: white;
   background-color: rgb(176, 196, 222);
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
+
+
 
 
 @media (max-width: 748px) {
