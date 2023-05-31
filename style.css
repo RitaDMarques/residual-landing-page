@@ -125,10 +125,7 @@ li {
 @media (max-width: 748px) {
   body {
     /* background: darkslategrey; */
-    background-image: url("images/backgroundmobile2.jpg");
-    background-size: 748px 1330px;
-    background-repeat: no-repeat;
-    background-color: rgb(176, 196, 222);
+    background-color: ghostwhite;
     text-align: justify;
     margin-left: 0px;
     text-shadow: none;
